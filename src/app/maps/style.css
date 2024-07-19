@@ -1,0 +1,31 @@
+.win {
+    border-radius: 7px;
+    box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+    height: 5px;
+}
+
+.win::-webkit-progress-bar {
+    background-color: white;
+    border-radius: 7px;
+  }
+
+.win::-webkit-progress-value {
+    background-color: lightgreen;
+    border-radius: 7px;
+  }
+
+  .use {
+    border-radius: 7px;
+    box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+    height: 5px;
+}
+
+.use::-webkit-progress-bar {
+    background-color: white;
+    border-radius: 7px;
+  }
+
+.use::-webkit-progress-value {
+    background-color: skyblue;
+    border-radius: 7px;
+  }
